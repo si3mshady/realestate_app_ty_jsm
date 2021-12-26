@@ -24,7 +24,7 @@ const Search = ({properties}) => {
             </Flex>
 
             {searchFilters && <SearchFilters />}
-            <Text fontsize='2xl' p='4' fontWeight='bold' fontWeight='bold'>
+            <Text fontsize='2xl' p='4' fontWeight='bold'>
                 
                 Properties {router.query.purpose}
                 
